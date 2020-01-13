@@ -82,13 +82,6 @@ import pydot
 
 keras.utils.plot_model(model, "Heart Disease Sequential NN.png", show_shapes=True)
 
-hidden1 = model.layers[1]
-weights, biases = hidden1.get_weights()
-weights
-weights.shape
-biases
-biases.shape
-
 #%%
 history = model.fit(X_train, y_train, epochs=70,
                     validation_data=(X_valid, y_valid))
