@@ -110,6 +110,5 @@ def prednew(model,n):
     return Acc
 #%%
 prednew(model,20)
-#%%
-print(time.process_time()-start_time)
+
 
